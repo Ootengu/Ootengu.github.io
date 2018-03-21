@@ -1,0 +1,47 @@
+<html>
+<head>
+  <title>Buat Account Baru!</title>
+</head>
+<body>
+      <h1>Buat Account Baru!</h1>
+      <h2> Sign Up Form </h2>
+      <form action="/action_page.php">
+        First name:<br>
+          <input type="text" value=""><br>
+            Last name:<br>
+            <input type="text" name="lastname" value=""><br><br>
+          </form>
+<p> Gender: <p>
+  <form action="/action_page.php">
+    <input type="radio" name="gender" value="male" checked> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="radio" name="gender" value="other"> Other
+  </form>
+<p> Nationality: <p>
+<select>
+  <option value="Indonesian">Indonesian</option>
+  <option value="Singaporean">Singaporean</option>
+  <option value="Malaysian">Malaysian</option>
+  <option value="Australian">Australian</option>
+</select>
+
+<p> Language Spoken: <p>
+
+<form action="/action_page.php">
+  <input type="checkbox" name="Language Spoken:" value="Bahasa Indonesia"> Bahasa Indonesia<br>
+  <input type="checkbox" name="Language Spoken:" value="English">English <br>
+  <input type="checkbox" name="Language Spoken:" value="Other"> Other
+</form>
+<p> Bio: </p>
+
+<form action="/action_page.php" method="get">
+  <textarea name="message" rows="8" cols="20"></textarea>
+  <br>
+  </form>
+  <form action="welcome.html">
+<input type="submit" value='Sign Up'>
+</form>
+
+
+</body>
+</html>

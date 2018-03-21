@@ -1,0 +1,85 @@
+
+header {
+	background-color: #ffffff;
+	border-bottom: 1px solid #466995;
+	position: fixed; 
+	left: 0;
+	width: 100%;
+	z-index: 10000; 
+}
+
+img {
+	width: 15%;
+	padding: 15px;
+	float: left;
+}
+
+ul {
+	margin: 30px auto;
+	text-align: right;
+}
+
+li {
+	display: inline-block;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding: 0 10px;
+}
+
+/*Untuk Body*/
+
+body {
+	margin: 0px;
+}
+
+#judul {
+	text-align: center;
+	font-size: 39px;
+	margin-bottom: 39px; 
+}
+
+.badan {
+	position: relative;
+	padding-top: 110px;
+	padding-bottom: 15px;
+	background: url(https://github.com/hacktiv8/phase-0-activities/raw/master/modules/assets/sample-pattern.png);
+}
+
+
+#article-list {
+	margin-left: 250px;
+	margin-right: 250px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	background-color: #ffffff;
+	text-align: justify;
+}
+h3 {
+	margin-top: 20px;
+}
+p {
+	padding-bottom: 30px;
+}
+
+
+
+footer {
+	background-color: #000000;
+	padding-bottom: 25px;
+	padding-top: 25px;
+
+}
+h5 {
+	color: #ffffff;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+
+
+* {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
