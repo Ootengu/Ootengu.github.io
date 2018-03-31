@@ -1,6 +1,6 @@
 # Suardhito's Markdown
 ## Welcome everyone!
-![My profile picture] (Profile-Picture/suardhito-profile.png)
+<img class="profile-picture" img src="Profile-Picture/suardhito-profile.png" alt="suardhito-profile" title="suardhito-profile" width="640" height="640" />
 
 Hello everyone my name is Suardhito Ihsan Pratama, you can call me **Dhito**. I never learn coding before but i have to. This is my first webpage at HACKTIV8 course :). Let's be a successful full-stack developer together with Hacktiv8. Enjoy!
 ### This is my target list :
